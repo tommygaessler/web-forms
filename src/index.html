@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Form</title>
+  </head>
+  <body>
+    <form>
+      <!-- Add labels and field's for the user's first and last name -->
+
+      <label for="username">First and Last name</label>
+      <input id="username" type="text">
+        <!-- type text is defualt -->
+        <!-- for label looks for id -->
+
+      <br>
+      <br>
+
+      <!-- Add a label and field for the user's email -->
+
+      <label for="email">Email</label>
+      <input id="email" type="email">
+
+      <br>
+      <br>
+
+      <!-- Add a label field for the user's password -->
+
+      <label for="password">Password</label>
+      <input id="password" type="password">
+
+      <br>
+      <br>
+
+      <!-- Add a label and field for the user's telephone # -->
+
+      <label>Telephone
+        <input type="tel">
+      </label>
+
+      <br>
+      <br>
+      <!-- same as using id and for, when you put input inside of label -->
+
+      <!-- Add a label and field where a user can select their age using the arrows -->
+
+      <label>Age
+        <input type="number" min="0">
+      </label>
+
+      <br>
+      <br>
+
+      <!-- Add a label and field for a user to enter a link to their website -->
+
+      <label>Url
+        <input type="url">
+      </label>
+
+      <br>
+      <br>
+
+      <!-- Add a label and field for a user to upload their resume -->
+
+      <label>Upload File
+        <input type="file">
+      </label>
+
+      <br>
+      <br>
+
+      <!-- Add a label and field where a user can select their favorite color -->
+
+      <label>Color
+        <input type="color">
+      </label>
+
+      <!-- Add a label and field where a user can use a range slider (1-10) to specify their confidence with JavaScript -->
+
+      <br>
+      <br>
+
+      <label>Range
+        <input type="range">
+      </label>
+
+      <br>
+      <br>
+
+      <!-- Add a label and way a user can select the skills they know from the following available choices (git, HTML, CSS, Sending E-mails) -->
+
+      <label>Multiple Select
+        <select multiple>
+          <option value="git">git</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Sending_E-mails">Sending E-mails</option>
+        </select>
+      </label>
+
+      <br>
+      <br>
+
+      <label>Single Select
+        <select>
+          <option value="git">git</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Sending_E-mails">Sending E-mails</option>
+        </select>
+      </label>
+
+      <br>
+      <br>
+
+      <label>Git
+        <input type="checkbox">
+      </label>
+      <label>HTML
+        <input type="checkbox">
+      </label>
+      <label>CSS
+        <input type="checkbox">
+      </label>
+      <label>Sending E-mails
+        <input type="checkbox">
+      </label>
+
+
+      <br>
+      <br>
+
+      <!-- Add a button for the user to submit the form -->
+
+      <button name="name" value="Submit">Submit</button>
+      <button type="reset">Reset</button>
+
+      <!-- Add a button for the user to clear the form -->
+
+    </form>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
